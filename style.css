@@ -1,0 +1,17 @@
+/* Custom styles to complement Tailwind CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the active language toggle button */
+.lang-toggle .active {
+    background-color: #0D2447; /* Corresponds to 'primary' in Tailwind config */
+    color: white;
+}
+
+/* Utility for better text visibility on images */
+.text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
