@@ -35,6 +35,8 @@
             }
         }
     </script>
+    <!-- Embeddable script from UZA Products -->
+    <script async src="https://uza.co.tz/api/downloads/js/embeddable.js"></script>
 </head>
 <body class="bg-secondary text-gray-800 antialiased">
 
@@ -130,13 +132,20 @@
 
         <!-- ORDER SECTION -->
         <section id="order" class="py-20 bg-white">
-            <div class="container mx-auto px-6 max-w-4xl">
+            <div class="container mx-auto px-8 max-w-4xl">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4" data-translate-key="orderTitle">Tayari Kuonja Ubora?</h2>
                 <p class="text-center text-gray-700 mb-10 text-lg" data-translate-key="orderSubtitle">Weka oda yako sasa kupitia mfumo wetu salama hapa chini.</p>
                 
                 <div class="mt-8 border-2 border-dashed border-gray-300 rounded-lg h-96 flex flex-col items-center justify-center bg-gray-50 text-center p-4">
-                    <h3 class="text-xl font-semibold text-gray-700" data-translate-key="embedTitle">Mfumo wa Kuagiza Mtandaoni</h3>
-                    <p class="text-gray-500 mt-2" data-translate-key="embedText">Sehemu hii itakuwa na iframe ya mfumo wako wa kuagiza (k.m. Shopify, Tiktuk, n.k.).</p>
+                    <!-- UZA Live - Products Embed -->
+                    <uza-products
+                        product-catalog-id=""
+                        public-api-key="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI3cFlOa1J5IiwiaWF0IjoxNzU4NTYzNjQ1LCJleHAiOjE3OTAwOTk2NDUsIm5iZiI6MTc1ODU2MzY0NSwianRpIjoicGtCTzJyciIsInN1YiI6ZmFsc2UsImF1ZCI6IndlYmVtYmVkLnV6YS5jby50eiJ9.IC0tLaSCb8SRmP6VX7qUtJxTiMf3Ele8FnTneF8ENFM"
+                        source="#web"
+                        refCode="#main"
+                        customer-email=""
+                        __locale-override="sw"
+                    ></uza-products>
                 </div>
             </div>
         </section>
